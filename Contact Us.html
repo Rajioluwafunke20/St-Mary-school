@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon Academy - Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+        .background-overlay {
+            background-image: url('/api/placeholder/1600/900');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.3;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255,255,255,0.9);
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        .image-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+        }
+        .image-container img {
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .contact-form {
+            display: grid;
+            gap: 15px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="container">
+        <h1>Contact St mary School</h1>
+        
+        <section class="section">
+            <div class="image-container">
+                <img src="/Images/Main building.jpg" alt="School Main Building">
+                <img src="/Images/Sch campus.jpg" alt="School Campus">
+                <img src="/Images/Sch enterance.jpg" alt="School Entrance">
+            </div>
+            
+            <h2>Administrative Headquarters</h2>
+            <p>Our main administrative office serves as the central hub for all school-related inquiries and communications. Located in the heart of our campus, our dedicated staff is committed to providing prompt and helpful assistance to students, parents, and community members.</p>
+            <p>We pride ourselves on maintaining an open and accessible communication channel. Whether you have questions about admissions, academic programs, or general school operations, our administrative team is here to support you.</p>
+        </section>
+
+        <section class="section">
+            <h2>Contact Information</h2>
+            <h3>General Inquiries</h3>
+            <p>Phone: (234) 9153890519<br>
+            Email: info@Stmaryschool.edu<br>
+            Address: 1234 Learning Lane, Education City, ED 56789</p>
+            
+            <h3>Department Specific Contacts</h3>
+            <p>Admissions: admission@Stmaryschool.edu<br>
+            Academic Affairs: academics@Stmaryschool.edu<br>
+            Student Services: studentservices@Stmaryschool.edu</p>
+        </section>
+
+        <section class="section">
+            <h2>Visit Us</h2>
+            <h3>Campus Tours</h3>
+            <p>We welcome prospective students and their families to explore our state-of-the-art facilities. Scheduled campus tours provide an excellent opportunity to experience the Horizon Academy environment firsthand and learn about our educational philosophy.</p>
+            
+            <h3>Open House Events</h3>
+            <p>Throughout the year, we host multiple open house events where you can meet our faculty, tour our classrooms, and get a comprehensive understanding of what makes Horizon Academy unique. Check our events calendar for upcoming dates.</p>
+        </section>
+
+        <section class="section">
+            <h2>Contact Form</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Your Phone Number">
+                <select required>
+                    <option value="">Select Inquiry Type</option>
+                    <option>Admissions</option>
+                    <option>Academic Information</option>
+                    <option>General Inquiry</option>
+                    <option>Other</option>
+                </select>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section class="section">
+            <h2>Support and Accessibility</h2>
+            <h3>Disability Services</h3>
+            <p>St mary school is committed to providing an inclusive educational environment. Our disability services team works closely with students to ensure appropriate accommodations and support are available to facilitate equal access to education.</p>
+            
+            <h3>Language Support</h3>
+            <p>We offer translation and interpretation services to support our diverse school community. If you require assistance in a language other than English, please let us know, and we will be happy to help.</p>
+        </section>
+    </div>
+</body>
+</html>

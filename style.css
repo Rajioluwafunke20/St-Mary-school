@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial,  sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+#logo{
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+} 
+#nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#nav-link li{
+    list-style: none;
+    margin: 10px;
+    font-size: 15px;
+}
+#nav-link li:hover{
+    transform: scale(1.2);
+}
+#nav-link li a{
+    text-decoration: none;
+    color:#fff;
+}
+#nav-link li a:hover{
+    text-decoration: 2px blue underline ;
+   
+}
+.hero{
+    height: 100vh;
+    padding: 20% auto;
+    background: linear-gradient(rgba(120, 110, 204, 0.4), rgba(120, 111, 156, 0.4)),
+    url(/Images/school.png) no-repeat center center/cover;
+    position: relative;
+}
+.hero .hero-title{
+     margin-top: 5%;
+}
+
+.hero h1{
+    font-size: 100px;
+    text-align: center;
+    margin: 10px 0 ; 
+    
+    
+}
+.hero h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 10px 0;
+}
+.hero p{
+    width: 50%;
+    font-size: 15px;
+    line-height: 2;
+    margin: 10px auto;
+    text-align: center;
+}
+.cta-btn{
+    padding: 10px 25px;
+    background-color: gray;
+    color: #000;
+    margin: 10px auto;
+    text-decoration: none; 
+    border-radius: 20px;
+    transition: all 0.3s ease;
+    
+} 
+.cta-btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.btn:hover{
+  margin: 30px auto;
+  transition: all 0.3s ease;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+
+
+/* ..............about............ */
+#About{
+ position:absolute;
+ top: 95%;
+ left: 9%;
+ background-color:rgb(101, 134, 184);
+padding: 50px;
+width: 70%;
+margin: 0 auto;
+border-radius: 30px;
+text-align: center;
+
+}
+#About .About-container h2{
+    color: #fff;
+    font-size: large;   
+}
+#About .About-container p{
+    font-size: 20px;
+}
+
+/* mission */
+#mission{
+    margin-top: 350px;
+}
+
+#mission h2{
+    font-size: 80px;
+    margin-bottom: bold;
+    text-shadow: 
+    2px 2px 0px red,
+    -2px -2px 0px blue,
+    4px -4px 0px green;
+   
+} 
+/* .......mission..... */
+#mission .mission-image{
+    display: flex;
+    align-items: center;
+    
+}     
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+.background-image {
+    background-image: url('/api/placeholder/1600/900');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+.section {
+    padding: 50px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.image-container img {
+    max-width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+</style>
+
+

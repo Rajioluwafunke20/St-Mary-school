@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>St Mary School</title>
+</head>
+<body>
+
+ St mary School
+    <div className="min-h-screen bg-gray-50">
+      <nav className="bg-blue-600 text-white p-4 fixed w-full top-0 z-50">
+        <div className="container mx-auto flex justify-between items-center">
+          <div className="text-2xl font-bold">Portfolio</div>
+          <ul className="flex space-x-6">
+            <li><a href="#home" className="hover:text-blue-200">Home</a></li>
+            <li><a href="#about us" className="hover:text-blue-200">About us</a></li>
+            <li><a href="#services" className="hover:text-blue-200">services</a></li>
+            <li><a href="#portfolio" className="hover:text-blue-200">Portfolio</a></li>
+            <li><a href="#Blog" className="hover:text-blue-200">Blog</a></li>
+          </ul>
+        </div>
+      </nav>
+
+    Home Section
+      <section id="home" className="relative h-screen flex items-center justify-center">
+        <img 
+          src="/Images/Sch campus.jpg" 
+          alt="School Campus">
+          className="absolute inset-0 w-full h-full object-cover opacity-70"
+        />
+        <div className="relative z-10 text-center text-white bg-black bg-opacity-50 p-10 rounded-lg">
+          <h1 className="text-4xl font-bold mb-4">Welcome to st mary School</h1>
+          <p className="text-xl">Empowering Minds, Shaping Futures</p>
+          <img 
+            src="/Images/students.jpg" 
+            alt="Students">
+          />
+        </div>
+      </section>
+
+       About Section
+      <section id="about" className="container mx-auto py-16 px-4">
+        <div className="grid md:grid-cols-2 gap-8">
+          <div>
+            <h2 className="text-3xl font-bold mb-4">Our Vision</h2>
+            <p className="mb-4">
+              Portfolio School is committed to providing exceptional education that nurtures individual potential. We believe in creating a holistic learning environment that encourages critical thinking, creativity, and personal growth.
+            </p>
+            <p>
+              Our approach goes beyond traditional academics, focusing on developing well-rounded individuals prepared for the challenges of the 21st century.
+            </p>
+            <img 
+              src="/Images/Mission n vision.jpg" 
+              alt="School Vision">
+              className="mt-6 rounded-lg shadow-md"
+            />
+          </div>
+          <div>
+            <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
+            <p className="mb-4">
+              We strive to create an inclusive and innovative learning environment that empowers students to become lifelong learners, critical thinkers, and responsible global citizens.
+            </p>
+            <p>
+              Through personalized education, cutting-edge resources, and a supportive community, we aim to unlock each student's unique potential.
+            </p>
+            <img 
+              src="/Images/mission.jpg" 
+              alt="School Mission"> 
+              className="mt-6 rounded-lg shadow-md"
+            />
+          </div>
+        </div>
+      </section>
+
+      Academics Section
+      <section id="academics" className="bg-gray-100 py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">Academic Excellence</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">Comprehensive Curriculum</h3>
+              <p className="mb-4">
+                Our curriculum is designed to provide a comprehensive and challenging academic experience that prepares students for future success.
+              </p>
+              <p>
+                We offer a wide range of subjects, advanced placement courses, and specialized programs to cater to diverse learning needs and interests.
+              </p>
+              <img 
+                src="/Images/Classroom pics.jpg" 
+                alt="Classroom"> 
+                className="mt-6 rounded-lg shadow-md"
+              />
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">Research and Innovation</h3>
+              <p className="mb-4">
+                We emphasize research-based learning and provide state-of-the-art facilities to support student innovation and scientific exploration.
+              </p>
+              <p>
+                Our research programs encourage students to think critically, solve complex problems, and develop groundbreaking solutions.
+              </p>
+              <img 
+                src="/Images/Research lab.jpg" 
+                alt="Research Lab"> 
+                className="mt-6 rounded-lg shadow-md"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+       Programs Section
+      <section id="programs" className="py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">Specialized Programs</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">STEM Excellence</h3>
+              <p className="mb-4">
+                Our STEM program provides cutting-edge education in Science, Technology, Engineering, and Mathematics, preparing students for future technological challenges.
+              </p>
+              <p>
+                With advanced laboratories, coding workshops, and robotics clubs, we nurture the next generation of innovators and problem-solvers.
+              </p>
+              <img 
+                src="/Images/Stem program.jpg"
+                alt="STEM Program"> 
+                className="mt-6 rounded-lg shadow-md"
+              />
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">Arts and Humanities</h3>
+              <p className="mb-4">
+                We believe in the power of creativity and critical thinking. Our arts and humanities programs provide a platform for students to explore their artistic and intellectual potential.
+              </p>
+              <p>
+                From visual arts to literature, music, and drama, we offer comprehensive programs that celebrate human expression and cultural diversity.
+              </p>
+              <img 
+                src="/Images/Arts program.jpg" 
+                alt="Arts Program"> 
+                className="mt-6 rounded-lg shadow-md"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Admissions Section */}
+      <section id="admissions" className="bg-gray-100 py-16">
+        <div className="container mx-auto px-4">
+          <h2 className="text-3xl font-bold text-center mb-8">Admissions</h2>
+          <div className="grid md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">Admission Process</h3>
+              <p className="mb-4">
+                Our admission process is designed to be comprehensive and holistic, focusing not just on academic achievements but on the overall potential of each student.
+              </p>
+              <p>
+                We look for students who demonstrate curiosity, creativity, and a passion for learning. Our interviews and assessments are tailored to understand each applicant's unique strengths.
+              </p>
+              <img 
+                src="/Images/Admission process.jpg" 
+                alt="Admission Process"> 
+                className="mt-6 rounded-lg shadow-md"
+              />
+            </div>
+            <div>
+              <h3 className="text-2xl font-semibold mb-4">Scholarship Opportunities</h3>
+              <p className="mb-4">
+                St mary School is committed to making quality education accessible. We offer a range of scholarships for exceptional students based on academic merit, talent, and financial need.
+              </p>
+              <p>
+                Our scholarship programs aim to support promising students and help them achieve their full potential, regardless of their economic background.
+              </p>
+              <img 
+                src="/Images/Scholarship ceremony.jpg" 
+                alt="Scholarship">
+                className="mt-6 rounded-lg shadow-md"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Footer */}
+      <footer className="bg-blue-600 text-white py-8">
+        <div className="container mx-auto text-center">
+          <p>&copy; 2024 St mary School. All Rights Reserved.</p>
+          <div className="mt-4">
+            <a href="#" className="mx-2 hover:text-blue-200">Privacy Policy</a>
+            <a href="#" className="mx-2 hover:text-blue-200">Contact Us</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+</body>
+</html>
